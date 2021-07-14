@@ -1,16 +1,42 @@
-linux commands and discription
-man <command> -manual page of command
-ls-     list files or directories
-ls -l - long list of files
-ls -lh - shows file sizes in a more human readable format
-ls -a - list all files including hidden files
-mkdir - make directory
-rmdir -remove directory
-cat   -show content of file
-cd <directory>   -change directory
-cd ~/ cd - return to home directory
-cd .. - return to parent directory
-pwd   -show present working directory
-touch-create an empty file
-cp <source file> <target file> -copy content of source file to the target file
-mv <source file> <target file>-move content of source file to the target file
+\documentclass[a4paper]{article}
+\usepackage{xcolor}
+\title{group activity}
+
+\begin{document}
+\maketitle
+
+\textcolor{red}{linux commands and discription}
+\newline
+\begin{enumerate}
+\item \textit{man} \textbf{command} -manual page of command
+\newline
+\item \textit{ls}-     list files or directories
+\newline
+\item ls -l - long list of files
+\newline
+\item \textcolor{blue}{ls -lh} - shows file sizes in a more human readable format
+\newline
+\item \textcolor{blue}{ls -a} - list all files including hidden files
+\newline
+\item mkdir - make directory
+\newline
+\item rmdir -remove directory
+\newline
+\item cat   -show content of file
+\newline
+\item cd <directory>   -change directory
+\newline
+\item cd ~/ cd - return to home directory
+\newline
+\item cd .. - return to parent directory
+\newline
+\item pwd   -show present working directory
+\newline
+\item touch-create an empty file
+\newline
+\item cp \textbf{source file target file} -copy content of source file to the target file
+\newline
+\item mv \textbf{source file target file}-move content of source file to the target file
+
+\end{enumerate}
+\end{document}
