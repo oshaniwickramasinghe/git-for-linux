@@ -1,0 +1,16 @@
+linux commands and discription
+man <command> -manual page of command
+ls-     list files or directories
+ls -l - long list of files
+ls -lh - shows file sizes in a more human readable format
+ls -a - list all files including hidden files
+mkdir - make directory
+rmdir -remove directory
+cat   -show content of file
+cd <directory>   -change directory
+cd ~/ cd - return to home directory
+cd .. - return to parent directory
+pwd   -show present working directory
+touch-create an empty file
+cp <source file> <target file> -copy content of source file to the target file
+mv <source file> <target file>-move content of source file to the target file
