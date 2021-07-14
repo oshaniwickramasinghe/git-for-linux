@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+void main(){
+	
+	int mult[10][10];
+	int i,j;
+	
+	for(i=0;i<10;i++)
+	{
+		for(j=0;j<10;j++)
+		{
+			mult[i][j]=(i+1)*(j+1);
+		}
+	}
+	
+	printf("\t\t**************MULTIPLICATION TABLE****************\n");
+	printf("\n");
+	printf("\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10\n");
+	printf("\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~\n");
+	printf("\n");
+	for(i=0;i<10;i++)
+	{
+		printf("%d >\t",i+1);
+		for(j=0;j<10;j++)
+		{
+			printf("%d\t",mult[i][j]);
+		}
+		printf("\n");
+	}
+	
+}
